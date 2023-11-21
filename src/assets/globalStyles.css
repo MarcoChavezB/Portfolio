@@ -1,0 +1,9 @@
+/* Estilos para eliminar el estilo global del RouterLink */
+.router-link-exact-active,
+.router-link-active {
+  color: inherit;
+  text-decoration: none;
+  background-color: transparent;
+  outline: none; /* Puede ser útil para eliminar el contorno predeterminado en el enfoque */
+  /* Ajusta o agrega otras propiedades según sea necesario */
+}
